@@ -44,3 +44,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+var one = 1
+var two = 2
