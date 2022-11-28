@@ -49,3 +49,8 @@ enum Numbers: Int {
     case one = 1
     case two = 2
 }
+
+enum NumberString: String {
+    case one = "one"
+    case two = "two"
+}
