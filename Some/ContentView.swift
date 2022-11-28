@@ -19,6 +19,26 @@ struct ContentView: View {
     }
 }
 
+struct ContentViewCat: View {
+    var body: some View{
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.small)
+                .foregroundColor(.brown)
+            Text("Catiiiis")
+                .font(.body)
+        }
+        .padding()
+    }
+}
+
+
+struct ComtentViewCat_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentViewCat()
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
