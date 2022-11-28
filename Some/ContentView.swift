@@ -44,3 +44,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+enum Numbers: Int {
+    case one = 1
+    case two = 2
+}
